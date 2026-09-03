@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+echo "==> Loading VMware kernel modules..."
+
+sudo modprobe vmw_vmci
+sudo modprobe vmmon
+sudo modprobe vmnet
+
+echo "==> Starting VMware networking..."
+
+sudo /usr/bin/vmware-networks --start
+
+echo "==> Checking VMware interfaces..."
+
+ip addr show vmnet1
+ip addr show vmnet8
+
+echo "==> Starting VMware Workstation..."
+
+exec /usr/bin/vmware
