@@ -46,7 +46,11 @@ cursor_warp = True
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 focus_previous_on_window_remove = False
+<<<<<<< HEAD
 reconfigure_screens = True
+=======
+reconfigure_screens = False
+>>>>>>> 84cfeaa (beta colors)
 
 auto_minimize = True
 
