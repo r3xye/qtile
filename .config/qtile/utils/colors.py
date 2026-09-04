@@ -17,6 +17,7 @@ PALETTES = {
         "accent-soft": "#4E9A70",
 
         "red": "#D66B6B",
+        "green": "#4E9A70",
         "orange": "#D69A5F",
         "yellow": "#D6C477",
         "blue": "#6FA8C9",
@@ -45,6 +46,7 @@ PALETTES = {
         "accent-soft": "#397A56",
 
         "red": "#B84F4F",
+        "green": "#397A56",
         "orange": "#B56F32",
         "yellow": "#967D28",
         "blue": "#39799D",
@@ -56,3 +58,4 @@ PALETTES = {
     },
 }
 
+# THEME = "void-dark"

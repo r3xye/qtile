@@ -1,9 +1,15 @@
 from libqtile import layout
 from libqtile.config import  Match
+from utils.colors import PALETTES
 
+
+color = PALETTES["void-dark"]
 
 layouts = [
-    layout.Columns(name = "[]=",border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    layout.Columns(name = "[]=",
+                   border_focus=color["border"],
+                   border_normal=color["surface"],
+                   border_width=5),
     layout.Max(),
 ]
 
